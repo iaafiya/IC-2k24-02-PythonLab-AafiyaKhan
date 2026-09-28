@@ -1,5 +1,5 @@
-Python Lab 1
-1. Variable and Identifier Practice
+**Python Lab 1**
+**1. Variable and Identifier Practice**
 Aim
 
 To declare variables of different data types and display their values and types.
@@ -17,7 +17,7 @@ Age: 20 Type: <class 'int'>
 Height: 5.2 Type: <class 'float'>
 Student: True Type: <class 'bool'>
 
-2. Greeting Program
+**2. Greeting Program**
 Aim
 
 To take the user's name, age, and city and display a greeting using an f-string.
@@ -33,7 +33,7 @@ Enter your city: Indore
 
 Hello Aafiya, you are 20 years old and you live in Indore.
 
-3. Arithmetic Operations
+**3. Arithmetic Operations**
 Aim
 
 To perform basic arithmetic operations on two numbers.
@@ -53,7 +53,7 @@ Product: 1575.0
 Quotient: 0.3968253968253968
 Remainder: 25.0
 
-4. Celsius to Fahrenheit
+**4. Celsius to Fahrenheit**
 Aim
 
 To convert temperature from Celsius to Fahrenheit.
@@ -66,7 +66,7 @@ Sample Input / Output
 Enter temperature in Celsius: 24
 Temperature in Fahrenheit: 75.2
 
-5. String Manipulation
+**5. String Manipulation**
 Aim
 
 To perform different operations on a full name.
@@ -82,7 +82,7 @@ Lowercase: aafiya zahra khan
 Reversed: nahK arhaZ ayifaA
 Length: 17
 
-6. Escape Sequence Practice
+**6. Escape Sequence Practice**
 Aim
 
 To create a simple receipt using escape sequences.
