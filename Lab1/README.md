@@ -1,50 +1,73 @@
-**Python Lab 1**
+# Python Lab 1
 
-**1. Variable and Identifier Practice**
-Aim
+This lab contains basic Python programs covering **variables, identifiers, input/output, arithmetic operations, temperature conversion, string manipulation, and escape sequences**.
 
-To declare variables of different data types and display their values and types.
+---
 
-Logic
+## 1. Variable and Identifier Practice
 
-The program creates variables for name, age, height, and student status. The type() function is used to display the data type of each variable.
+### Aim
 
-Sample Input / Output
+To declare variables of different **data types** and display their values and types.
 
-No input is required.
+### Logic
 
+The program creates variables for **name, age, height, and student status**. The `type()` function is used to display the data type of each variable.
+
+### Sample Input / Output
+
+**Input:** No input is required.
+
+```text
 Name: Aafiya Type: <class 'str'>
 Age: 20 Type: <class 'int'>
 Height: 5.2 Type: <class 'float'>
 Student: True Type: <class 'bool'>
+```
 
-**2. Greeting Program**
-Aim
+---
 
-To take the user's name, age, and city and display a greeting using an f-string.
+## 2. Greeting Program
 
-Logic
+### Aim
 
-The program takes the user's name, age, and city as input. These values are combined into one sentence using an f-string.
+To take the user's **name, age, and city** and display a greeting using an **f-string**.
 
-Sample Input / Output
+### Logic
+
+The program takes the user's name, age, and city as input. These values are combined into one sentence using an **f-string**.
+
+### Sample Input / Output
+
+```text
 Enter your name: Aafiya
 Enter your age: 20
 Enter your city: Indore
 
 Hello Aafiya, you are 20 years old and you live in Indore.
+```
 
-**3. Arithmetic Operations**
-Aim
+---
 
-To perform basic arithmetic operations on two numbers.
+## 3. Arithmetic Operations
 
-Logic
+### Aim
 
-The program takes two numbers as input and converts them to floating-point numbers. It then calculates their sum, difference, product, quotient, and remainder.
+To perform **basic arithmetic operations** on two numbers.
 
-Sample Input / Output
+### Logic
 
+The program takes two numbers as input and converts them to **floating-point numbers**. It then calculates their:
+
+* **Sum**
+* **Difference**
+* **Product**
+* **Quotient**
+* **Remainder**
+
+### Sample Input / Output
+
+```text
 Enter first number: 25
 Enter second number: 63
 
@@ -53,49 +76,76 @@ Difference: -38.0
 Product: 1575.0
 Quotient: 0.3968253968253968
 Remainder: 25.0
+```
 
-**4. Celsius to Fahrenheit**
-Aim
+---
 
-To convert temperature from Celsius to Fahrenheit.
+## 4. Celsius to Fahrenheit
 
-Logic
+### Aim
 
-The program takes the temperature in Celsius as input. It applies the formula F = (C × 9/5) + 32 to calculate the Fahrenheit temperature.
+To convert temperature from **Celsius to Fahrenheit**.
 
-Sample Input / Output
+### Logic
+
+The program takes the temperature in Celsius as input and applies the following formula:
+
+**F = (C × 9/5) + 32**
+
+to calculate the Fahrenheit temperature.
+
+### Sample Input / Output
+
+```text
 Enter temperature in Celsius: 24
 Temperature in Fahrenheit: 75.2
+```
 
-**5. String Manipulation**
-Aim
+---
 
-To perform different operations on a full name.
+## 5. String Manipulation
 
-Logic
+### Aim
 
-The program takes a full name as input. It converts the name to uppercase and lowercase, reverses the string, and calculates its length.
+To perform different operations on a **full name**.
 
-Sample Input / Output
+### Logic
+
+The program takes a full name as input. It performs the following operations:
+
+* Converts the name to **uppercase**
+* Converts the name to **lowercase**
+* **Reverses** the string
+* Calculates the **length** of the string
+
+### Sample Input / Output
+
+```text
 Enter your full name: Aafiya Zahra Khan
+
 Uppercase: AAFIYA ZAHRA KHAN
 Lowercase: aafiya zahra khan
-Reversed: nahK arhaZ ayifaA
+Reversed: nahK arhaZ ayifA
 Length: 17
+```
 
-**6. Escape Sequence Practice**
-Aim
+---
 
-To create a simple receipt using escape sequences.
+## 6. Escape Sequence Practice
 
-Logic
+### Aim
 
-The program uses the \t escape sequence to create spacing between item names and prices. Separate lines are printed to create a simple receipt format.
+To create a simple **receipt using escape sequences**.
 
-Sample Input / Output
+### Logic
 
-No input is required.
+The program uses the `\t` escape sequence to create spacing between **item names and prices**. Separate lines are printed to create a simple receipt format.
 
+### Sample Input / Output
+
+**Input:** No input is required.
+
+```text
 Item            Price
 --------------------
 Pen             ₹10
@@ -103,3 +153,4 @@ Notebook        ₹50
 Pencil          ₹5
 --------------------
 Total           ₹65
+```
